@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+
+body {
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'New Tegomin', serif;
+}
+
+.aboutMe { 
+    width: 700px;
+    display: block;
+    margin: auto;
+}
+.wisdom {
+    color: #4b778d;
+    font-size: 40px;
+}
+p {
+    color: #5b8a72;
+    font-size: 35px;
+}
+footer {
+    text-align: center;
+    color: #897853;
+}
+footer ul li {
+    display: inline-block;
+    padding: 10px;
+    color: #4e3620;
+}
