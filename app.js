@@ -86,7 +86,7 @@ let fastArray = [14, 15, 16];
 // }
 let c = 1;
 while (c < 6) {
-    let fastQ = prompt('Can you guess how many hours a day we fast?', 'you have a 6 attempts to guess the correct answer. attemp: ' + c++);
+    let fastQ = prompt('Can you guess how many hours a day we fast?', 'you have a 6 attempts to guess the correct answer. attemp: ' + c);
     let fastQuestion = parseInt(fastQ);
     for (let j = 0; j < fastArray.length; j++) {
         if(fastQuestion == fastArray[j]){
