@@ -11,20 +11,50 @@ body {
     display: block;
     margin: auto;
 }
+header nav ul {
+    text-align: center;
+    padding: 60px;
+}
+header nav ul li {
+    color: #798777;
+}
+header nav ul li:hover {
+    
+    background-color: #8fd9a8;
+}
 .wisdom {
     color: #4b778d;
     font-size: 40px;
 }
 p {
-    color: #5b8a72;
+    color: #989c9a;
     font-size: 35px;
 }
+.edu {
+    color: #989c9a;
+    font-size: 25px;
+}
+.exp {
+    color: #989c9a;
+    font-size: 25px;
+}
+.top-ten {
+    color: #989c9a;
+    font-size: 20px;
+}
+.top-ten li {
+    display: inline-block;
+}
 footer {
+    width: 100%;
     text-align: center;
+    display: inline-block;
     color: #897853;
 }
-footer ul li {
-    display: inline-block;
+nav ul li {
+    list-style: none;
+    display: inline;
+    margin: 5px;
     padding: 10px;
     color: #4e3620;
 }
