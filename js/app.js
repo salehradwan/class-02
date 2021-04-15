@@ -21,7 +21,7 @@ const checkAge = function (age) {
     alert('Great, i am a 29 years old');
     mark++;
   }
-}
+};
 
 function jokes(ans){
   while (ans !== 'yes' && ans !== 'no' && ans !== 'y' && ans !== 'n') {
@@ -34,8 +34,8 @@ function jokes(ans){
   } else {
     alert('incorrect, knook knoo, i like the jokes.');
     console.log('The correct answer yes');
-  
-  } 
+
+  }
   return ans;
 }
 
@@ -92,7 +92,7 @@ function myAge(){
       alert('the correct answer is : 29');
     }
   }
-  
+
 }
 function ramadan(){
   let c = 1;
@@ -111,7 +111,7 @@ function ramadan(){
     if (c <= 6) {
       alert('Incorrect!!!');
     }
-  
+
   }
   alert('The Correct answers are ' + fastArray);
 }
@@ -127,9 +127,9 @@ function suggestion(ans){
     alert('Thanks for your patience, I wish you an enjoyable time.');
   }
   alert('Thank you a lot ' + userName + ' I wish you an enjoyable time.');
-  
+
   alert('The mark is : ' + mark);
-return ans;  
+  return ans;
 }
 
 let older = prompt('Am I older than 30?', 'y/n').toLowerCase();
@@ -148,40 +148,3 @@ myAge();
 ramadan();
 let offer = prompt('do you have any suggestions for me?', 'y/n').toLowerCase();
 suggestion(offer);
-
-// let myAge = prompt('Can you guess my age?', 'Enter the number');
-// let myAgeNum = parseInt(myAge);
-// // let age = 29;
-// for (let i = 0; i < 3; i++) {
-//   if (myAgeNum === 29) {
-//     alert('Great, i am a 29 years old ');
-//     console.log('The correct answer is 29');
-//     mark++;
-//     break;
-//   } else if (myAgeNum > 29) {
-//     alert('too high');
-//     myAge = prompt('Re-guess my age?', 'Enter the number');
-//     myAgeNum = parseInt(myAge);
-//   } else if (myAgeNum < 29) {
-//     alert('too low');
-//     myAge = prompt('Re-guess my age?', 'Enter the number');
-//     myAgeNum = parseInt(myAge);
-//   }
-// }
-// alert('The correct answer is 29');
-// console.log(myAgeNum);
-
-
-// let y = 0;
-// while(fastQuestion > fastArray[y] && y == 6){
-//     fastQ = prompt('Re-guess how many hours a day we fast?');
-//     fastQuestion = parseInt(fastQ);
-//     y++;
-// }
-
-
-
-
-
-
-
